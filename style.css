@@ -1,0 +1,113 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-weight: bold;
+  
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  gap: 10px;
+  margin-top: 30px;
+  font-size: 27px;
+}
+
+input {
+  font-size: 20px;
+  height: 35px;
+  width: 350px;
+  margin-top: 0px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s, box-shadow 0.3s; 
+}
+
+input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); 
+  outline: none; 
+}  
+
+
+#add {
+  margin-top: 10px;
+  padding: 15px 90px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;  
+}
+
+#add:hover {
+  background-color: #45a049;
+}
+
+#add:active {
+  transform: scale(0.98);
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: #333;
+}
+
+
+#listaClientes {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 15px;  
+}
+
+
+#listaClientes li {
+  display: flex;
+  padding: 7px 9px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 18px;
+}
+
+#listaClientes li button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 20px;
+}
+
+#listaClientes li button:hover {
+  background-color: darkred;
+}
+
+
+
+
